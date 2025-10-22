@@ -68,7 +68,7 @@ header h2 {
 }
 
 .presentation h1 {
-    font-size: 3.5rem;
+    font-size: 10vw;
 }
 
 .presentation p {
@@ -114,7 +114,17 @@ header h2 {
         text-align: right;
     }
 
+    .presentation h1 {
+        font-size: 2.5rem;
+    }
+
     #visita-nutrizionale h3 {
         text-align: left;
+    }
+}
+
+@media (min-width: 1000px) {
+    .presentation h1 {
+        font-size: 3.5rem;
     }
 }
