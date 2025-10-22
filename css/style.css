@@ -4,7 +4,17 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
     line-height: 28px;
-    background-color: #fdfdfd;
+    background-color: #fff;
+}
+
+a {
+	color: rgb(33, 37, 41);
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: rgb(33, 37, 41);
+	text-decoration: underline;
 }
 
 .text-right {
@@ -93,7 +103,7 @@ header h2 {
     background-color: rgb(45, 119, 194);
 }
 
-.block1 {
+.bottomline {
     border-bottom: 5px solid #6bd2a4;
 }
 
@@ -109,6 +119,32 @@ header h2 {
     text-align: center;
 }
 
+.divzucca {
+    text-align: center;
+}
+
+.zucca {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 50px;
+}
+
+.contatti {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.iconcontainer {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footdecor {
+    height: 80px;
+    background: url("../img/striscia.jpg") repeat-x;
+    background-size: auto 80px;
+}
+
 @media (min-width: 768px) {
     .presentation {
         text-align: right;
@@ -121,10 +157,27 @@ header h2 {
     #visita-nutrizionale h3 {
         text-align: left;
     }
+
+    .footdecor {
+        height: 105px;
+        background-size: auto auto;
+    }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
     .presentation h1 {
         font-size: 3.5rem;
+    }
+
+    .padfooter {
+        padding: 0 40px;
+    }
+
+    .divzucca {
+        text-align: right;
+    }
+
+    .contatti {
+        text-align: left;
     }
 }
