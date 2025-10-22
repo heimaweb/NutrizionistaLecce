@@ -124,7 +124,7 @@ header h2 {
 }
 
 .zucca {
-    width: 100%;
+    width: 50%;
     max-width: 300px;
     margin-bottom: 50px;
 }
@@ -175,6 +175,10 @@ header h2 {
 
     .divzucca {
         text-align: right;
+    }
+
+    .zucca {
+        width: 100%;
     }
 
     .contatti {
