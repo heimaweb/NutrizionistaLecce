@@ -145,6 +145,10 @@ header h2 {
     background-size: auto 80px;
 }
 
+.accordion-button {
+    background-color: var(--bs-accordion-active-bg);
+}
+
 @media (min-width: 768px) {
     .presentation {
         text-align: right;
